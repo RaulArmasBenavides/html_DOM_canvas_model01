@@ -32,16 +32,16 @@ p {
 {
    width: 90%;
    max-width: 900px;
-   margin: 60px 0 0 60px;
+   margin: 200px;
    position: relative;
-   overflow: hidden;
+   overflow: hidden; 
    box-shadow: 0 0 0 10px #fff;
 }
 
 /*update the height*/
 .slider{
 	display: flex;
-	width: 400%;
+	width: 300%;
 	height: 800px;
 } 
 
@@ -60,15 +60,14 @@ p {
   width: 40px;
   height: 40px;
   background: #4f8eff;
-  top:50%;
   transform: translateY(-50%);
+  top:50%;
   border-radius: 50%;
   cursor:pointer;
   font-size: 30px;
   text-align: center;
-  
-  
 }
+
 .slider_btn:hover{
   background: #333;
 }

@@ -1,3 +1,5 @@
+"use strict";
+
 const slider = document.querySelector("#myslider");
 let sliderSection = document.querySelectorAll(".slider_section");
 let sliderSectionLast = sliderSection[sliderSection.length-1];

@@ -63,7 +63,7 @@
 .picker__holder {
   position: fixed;
   transition: background 0.15s ease-out, transform 0s 0.15s;
-  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 /**
  * The frame that bounds the box contents of the picker.
@@ -144,7 +144,7 @@
   -ms-transform: translateY(0);
       transform: translateY(0);
   background: transparent;
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#1E000000,endColorstr=#1E000000)";
+  filter : "progid:DXImageTransform.Microsoft.gradient(startColorstr=#1E000000,endColorstr=#1E000000)";
   zoom: 1;
   background: rgba(0, 0, 0, 0.32);
   transition: background 0.15s ease-out;

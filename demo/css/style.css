@@ -1,0 +1,126 @@
+
+
+img{
+    width: 100%;
+}
+body{
+    color: var(white);
+}
+
+
+/*Header*/
+
+.container{
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+}
+
+.section{
+ padding: 4rem 0 3rem;   
+}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100% ;
+    box-shadow: 0 1px 4px hsl(0 4% 15%/10%);
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+
+.logo {
+    font-size: 1.1rem;
+    color:var(blue);
+    cursor: pointer;
+}
+
+.cart{
+    position: fixed;
+    top:0;
+    right: -100%;
+    width: 360px;
+    min-height: 100vh;
+    padding:20px;
+    background: var(white);
+    transition: 0.3s;
+}
+
+.cart.active{
+    right: 0;
+}
+
+.cart-title{
+    text-align: center;
+    margin-top: 2px;
+}
+
+
+.cart-price{
+    font-weight: 500;
+}
+
+.total{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid var(gray);
+}
+.total-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.btn-buy{
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+}
+
+
+#close-cart{
+    position: absolute;
+    top:1rem;
+    right: 0.8rem;
+    cursor: pointer;
+}
+
+.section-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.shop{
+    margin-top:2rem
+}
+
+.shop-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,auto));
+    gap:1.5rem
+}
+
+.product-box{
+    position: relative;   
+}
+.product-box:hover{
+    padding:10px ;   
+    border: 1px solid var(gray);
+    transition: 0.4s;
+}
+
+.product-title{
+    font-size: 1.1rem;
+}
+
+.price{
+    font-weight: 500;
+}
